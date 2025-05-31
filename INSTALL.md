@@ -18,25 +18,23 @@ Keypirinha stores user configuration files in different locations depending on h
   %APPDATA%\Keypirinha\Profile\User\
   ```
 
-You can also open the folder via Keypirinha itself:
+You can also open the configuration file via Keypirinha itself:
 
 1. Launch Keypirinha  
 2. Type `Configure`  
-3. Select **Keypirinha: Configure** to open the `Keypirinha.ini` file in your default text editor.
+3. Select `Keypirinha: Configure` to open the `Keypirinha.ini` file in your default text editor.
 
 ## 3. Install the Theme
 
 1. Download the [`keypirinha-dracula-theme.ini`](keypirinha-dracula-theme.ini) file from this repository.
-2. Copy it to your user configuration folder (see step 2 above).
-3. Open `Keypirinha.ini` and scroll to or create the `[gui]` section.
-4. Add or update the following line to reference the theme:
+2. Open `Keypirinha.ini` and update or create the following line in the `[gui]` section to reference the theme:
 
    ```ini
    [gui]
    theme = Dracula
    ```
 
-5. Next, copy the entire contents of `keypirinha-dracula-theme.ini` into the same file (usually just below the `[gui]` section), or keep it as a separate file and copy-paste when needed.
+5. Next, copy the entire contents of `keypirinha-dracula-theme.ini` into the same file (usually just below the `[gui]` section).
 
 Here’s an example structure in your `Keypirinha.ini`:
 
@@ -60,11 +58,10 @@ Save your changes and press `Ctrl+F5` in Keypirinha to reload the configuration.
 
 ## 5. Optional: Customise the Theme
 
-You can customise layout, spacing, fonts, and colours using Keypirinha's theme system. To simplify the process, try the **Keypirinha Theme Builder** by [Fuhrmann](https://github.com/Fuhrmann):
+This theme uses the **JetBrains Mono** font by default, with sensible fallback fonts. You can download JetBrains Mono (Nerd Font patched) from [this release link](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/JetBrainsMono.zip).
 
-👉 [https://fuhrmann.github.io/keypirinha-theme-builder/](https://fuhrmann.github.io/keypirinha-theme-builder/)
+You can further customise layout, spacing, fonts, and colours by editing the theme values. To simplify the process, try the [Keypirinha Theme Builder](https://fuhrmann.github.io/keypirinha-theme-builder/) by [Fuhrmann](https://github.com/Fuhrmann), which lets you load, preview, and tweak your theme visually.
 
-This online tool lets you load, preview, and tweak your theme visually.
 
 ## More Information
 
