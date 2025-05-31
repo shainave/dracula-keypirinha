@@ -1,6 +1,6 @@
 # Dracula for Keypirinha
 
-> A dark theme for the [Keypirinha](https://keypirinha.com/) launcher, based on Dracula.
+> A minimalist dark theme for the [Keypirinha](https://keypirinha.com/) launcher, based on Dracula. Designed with accessibility guidelines in mind, it provides good contrast and legible visuals.
 
 ![Screenshot](screenshot.png)
 
