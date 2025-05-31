@@ -1,6 +1,6 @@
 # Dracula for Keypirinha
 
-> A dark theme for the Keypirinha launcher, based on Dracula.
+> A dark theme for the [Keypirinha](https://keypirinha.com/) launcher, based on Dracula.
 
 ![Screenshot](screenshot.png)
 
