@@ -45,8 +45,6 @@ theme = Dracula
 [theme/Dracula]
 ; Dracula theme for Keypirinha by Shai (https://github.com/shainave)
 ; Paste the contents of the keypirinha-dracula-theme.ini file here
-; Example:
-; ui_font = Segoe UI,10
 ; ...
 ```
 
