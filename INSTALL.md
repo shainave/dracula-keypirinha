@@ -34,7 +34,7 @@ You can also open the configuration file via Keypirinha itself:
    theme = Dracula
    ```
 
-5. Next, copy the entire contents of `keypirinha-dracula-theme.ini` into the same file (usually just below the `[gui]` section).
+5. Next, copy the entire content of `keypirinha-dracula-theme.ini` into the same file (usually just below the `[gui]` section).
 
 Here’s an example structure in your `Keypirinha.ini`:
 
@@ -50,7 +50,7 @@ theme = Dracula
 ; ...
 ```
 
-> 💡 **Section names are case-sensitive**, so `[theme/Dracula]` must match the name in the `theme = Dracula` line exactly.
+> **Note:** **Section names are case-sensitive**, so `[theme/Dracula]` must match the name in the `theme = Dracula` line exactly.
 
 ## 4. Apply the Theme
 
