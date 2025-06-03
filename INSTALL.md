@@ -48,7 +48,8 @@ theme = Dracula
 ; ...
 ```
 
-> **Note:** **Section names are case-sensitive**, so `[theme/Dracula]` must match the name in the `theme = Dracula` line exactly.
+[!Note]
+Section names are case-sensitive**, so `[theme/Dracula]` must match the name in the `theme = Dracula` line exactly.
 
 ## 4. Apply the Theme
 
